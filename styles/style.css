@@ -3,7 +3,7 @@
 --------------------*/
 body{
     margin: 0;
-    background-color: rgb(244, 247, 246);
+    
     font-family: 'Poppins', sans-serif;;
 }
 main{
@@ -24,6 +24,10 @@ main{
     justify-content: center;
     align-items: center;
 }
+.bannar:hover .bannar-photo img{
+    transform:scale(1.5) ;
+    transition: transform 2s ease-in ;
+}
 .bannar-element{
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -40,6 +44,7 @@ main{
 } 
 .button {
     background: #E02C6D;
+    margin-top: 15px;
     width: 168px;
     height: 44px;
     display: flex;
@@ -47,7 +52,6 @@ main{
     align-items: center;
     padding: 10px 24px;
 }
-
 .button p a{
     display: flex;
     align-items: center;
@@ -56,6 +60,11 @@ main{
 }
 .button p i{
     margin: 0px 8px;
+}
+.button:hover{
+    border: 3px solid white;
+    border-radius: 15px;
+    font-size:  1.5em; ;
 }
 .bannar-photo img{
     width: 556.01px;
@@ -96,4 +105,43 @@ main{
 }
 .player-info{
     padding: 15px;
+}
+
+/*-------------------------
+     footer section styles 
+---------------------------*/
+footer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 160px;
+    margin-bottom: 63px;
+}
+.footer-item{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.footer-item img{
+    width: 483.87px;
+    height: 110px;
+}
+.social-media-icon{
+    margin: 20px 0px;
+
+
+}
+.social-media-icon .icon{
+    font-size: 20px;
+    padding: 10px;
+    margin: 0px 14px;
+    color: #969BAB;
+    background-color:black;
+    border-radius: 50%;
+    opacity: 0.1;
+}
+
+.copyright{
+    font-size: 18px;
 }
