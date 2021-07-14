@@ -1,0 +1,99 @@
+/*-------------------
+    common styles
+--------------------*/
+body{
+    margin: 0;
+    background-color: rgb(244, 247, 246);
+    font-family: 'Poppins', sans-serif;;
+}
+main{
+    display: flex;
+    justify-content: center;
+}
+.container{
+    width: 1050px;
+    
+}
+/*------------------
+     header styles
+------------------- */
+.bannar{
+    background-color: #2D25A0;
+    height: 677px;;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.bannar-element{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+    width: 1143px;
+    height: 438px;
+   
+}
+.head-line h1{
+    font-size: 64px;
+    font-weight: 700;
+    color: white;
+    margin: 0%;
+} 
+.button {
+    background: #E02C6D;
+    width: 168px;
+    height: 44px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px 24px;
+}
+
+.button p a{
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    color: white;
+}
+.button p i{
+    margin: 0px 8px;
+}
+.bannar-photo img{
+    width: 556.01px;
+    height: 438px;
+}
+
+/*--------------------------
+    top players blogs styles
+---------------------------- */
+.top-players{
+    display: flex;
+    justify-content: center
+}
+.players{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    align-items: center;
+    justify-content: center;
+    margin-top: 70px;
+}
+.players article{
+    width: 330px;
+    height: 474px;
+    background-color: white;
+    margin: 15px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.15);
+}
+.player-profile{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.player .player-photo img{
+    width: 300px;
+    height: 256px;
+}
+.player-info{
+    padding: 15px;
+}
